@@ -50,19 +50,16 @@ video {
 	vertical-align: baseline;
 }
 
-video 
-{   
-	position: absolute;
-	min-width: 100%!important;
-	min-height:100%!important;
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100;
+  min-height: 100;
+  width: auto;
+  height: auto; 
 }
-
-.bg-video{   position: absolute;
-	top: 0;
-	right:0;
-	left: 0;
-	height:100%;
-	min-height:700px!important;}
 
 
 
